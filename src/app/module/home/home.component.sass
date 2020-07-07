@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap')
+
+$morado: #585da3
+$fucsia: #6d3389
+
+.text-morado
+  color: #585da3
+
+.bg-morado
+  background-color: #6d3389
+
+#section1
+  height: 100vh
+
+.h4
+  font-weight: 100
+
+.titulo-header
+  font-size: 5rem
+  line-height: 1!important
+  font-weight: 600
+  font-style: italic
+  color: $morado
+
+.titulo-header-2
+  font-size: 8rem
+  line-height: 1!important
+  font-weight: 600
+  font-style: italic
+  color: $morado
+
+.titulo-header-3
+  font-size: 3rem
+  line-height: 1 !important
+  font-weight: 600
+  font-style: italic
+  color: #ffffff
+
+.btn-header-off
+  // color: $fucsia
+  transition: all .3s ease-in-out
+
+.p-buttom
+  padding: 8px 0
+
+.btn-header
+  border: 2px solid
+  border-radius: 21px
+  padding: 3px 3em
+  font-weight: 100
+
+.content-btn
+  font-weight: 100
+  text-align: center
+  background-image: linear-gradient(#fff,#fff),radial-gradient(circle at top left,$fucsia,$morado)
+  border: 3px double transparent
+  border-radius: 80px
+  background-origin: border-box
+  background-clip: content-box,border-box
+  color: $fucsia
+
+.content-btn-active
+  font-weight: 100
+  text-align: center
+  background-image: linear-gradient(to right, $fucsia, $morado)
+  border: 3px double transparent
+  border-radius: 80px
+  background-origin: border-box
+  background-clip: content-box,border-box
+  color: white
+
+.position-text
+  position: absolute
+  top: 25%
+  width: min-content
+
+.position-img
+  position: absolute
+  right: 10%
+  z-index: -1
+  top: 25%
+  
+.back-logo
+  position: absolute
+  z-index: -1
+  width: 54%
+  right: 22%
+  top: -64px
+
+.franja
+  position: absolute
+  bottom: 0
+  background-image: linear-gradient(to right, #6b368b, #595aa1)
+  width: 100%
+  left: 0
+  height: 30%
+  z-index: -2
+
+.display-1
+  font-size: 6rem
+  font-weight: 300
+  line-height: 1.2
+
+.borde-f
+  border-top-right-radius: 30px
+  border-bottom-right-radius: 30px
+  border-top-left-radius: 30px
+  padding: 1em 1em 1em 80px!important
+
+
+.base-img
+  background: #634695
+  height: 120px
+  width: 120px
+  position: absolute
+  left: -50px
+  top: 20%
+  border-radius: 50%
+
+.relative
+  position: relative
+
+.img-destacado
+  width: 117px
+  position: absolute
+  left: -107px
+
+.dots
+  background: #dadada
+  width: 8px
+  height: 35px
+  margin-bottom: 5px
+  cursor: pointer
+  &:hover
+    background-color: $morado!important
+
+.sm-dots
+  background: #dadada
+  width: 35px
+  height: 8px
+  margin-left: 5px
+  cursor: pointer
+  margin-top: 20px
+  &:hover
+    background-color: $morado!important
+
+.active
+  background-color: $morado!important
+
+.dots-position
+  position: absolute
+  right: -25px
+  top: 25%
+
+.slide-img
+  border-radius: 50%
+  padding: 5px
+
+.sm-hide
+  display: block
+
+.sm-show
+  display: none
+
+@media (max-width: 575px)
+  .base-img
+    position: inherit!important
+    display: block
+    margin: 0 auto
+    left: inherit!important
+  .borde-f
+    padding: 1rem!important
+  
+  .sm-center
+    display: flex
+    justify-content: center
+
+@media (max-width: 767px)
+  .back-logo, .img-destacado
+    display: none
+  
+  .dots-position
+    position: absolute!important
+    right: 17px!important
+    top: 17%!important
+
+  .titulo-header
+    font-size: 2rem!important
+
+  .sm-hide
+    display: none!important
+
+  .titulo-header-2
+    font-size: 2rem!important
+    
+  .back-logo
+    top: 57%!important
+  
+  .sm-show
+    display: block!important
+
+@media screen and (min-width: 768px) and (max-width: 885px)
+  .sm-col-full
+    flex: 0 0 100%!important
+    max-width: 100%!important
+
+  .titulo-header
+    font-size: 4rem!important
+  .titulo-header-2
+    font-size: 4rem!important
+    
+  .back-logo
+    top: 57%!important
+
+@media (max-width: 885px)
+  .position-text, .position-img
+    position: inherit!important
+  .position-text
+    margin-top: 24%
+  
+  #section1
+    height: inherit!important
+    
+@media screen and (min-width: 885px) and (max-width: 1059px)
+  .titulo-header
+    font-size: 4rem!important
+  .titulo-header-2
+    font-size: 4rem!important
+  .titulo-header-3
+    font-size: 1.5rem!important
+
+@media ( max-width: 1200px )
+  .img-destacado
+    width: 86px
+    position: absolute
+    left: -80px
+    top: 30%
+
+@media screen and (min-width: 1260px) and ( max-width: 1324px )
+  .img-destacado
+    width: 75px
+    position: absolute
+    left: -70px
+    top: 55%
+  
