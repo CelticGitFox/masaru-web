@@ -1,0 +1,105 @@
+$blue: #192440
+
+.titulo-header
+  font-size: 4rem
+  line-height: 1 !important
+  font-weight: 800
+  font-style: italic
+  color: white
+  width: -webkit-min-content
+  width: -moz-min-content
+  width: min-content
+  color: #333
+  text-align: right
+
+.titulo-header-1
+  font-size: 4rem
+  line-height: 1 !important
+  font-weight: 800
+  font-style: italic
+  color: white
+  color: #fff
+  text-align: right
+    
+.w-35
+  width: 35%
+
+.w-40
+  width: 40%
+    
+.btn-red
+  border: 1px solid
+  color: red
+  border-color: red
+  padding: .5em
+  border-radius: 8px
+  text-align: center
+
+.btn-white
+  border: 1px solid
+  color: white
+  border-color: white
+  padding: .5em
+  border-radius: 8px
+  text-align: center
+  transition: all .3s ease
+  &:hover
+    background-color: #fff
+    color: $blue
+
+.product-title
+  font-size: 30px
+  font-weight: 800
+  font-style: italic
+  color: red  
+  text-align: center
+
+.last-product
+  line-height: 1.6
+  text-align: justify
+  font-size: 2rem
+
+.last-content
+  display: grid
+  grid-template-columns: 1fr 1fr
+
+@media (max-width: 768px)
+  .titulo-header
+    font-size: 2rem!important
+    
+  .worker
+    display: none
+
+  .w-40
+    width: 100%!important
+
+  .w-35
+    width: 100%!important
+
+  .titulo-header
+    width: inherit!important
+    text-align: left!important
+    color: #192440
+  
+  .linea
+    display: none
+
+  .leyenda
+    line-height: 1
+
+  .last-content
+    display: grid
+
+  .product-title
+    line-height: 1.5
+
+@media (max-width: 1208px)
+  .last-product
+    font-size: 1rem
+
+  .last-content
+    display: block!important
+
+@media screen and (min-width: 1208px) and (max-width: 1490px)
+  .last-product
+    font-size: 1.5rem

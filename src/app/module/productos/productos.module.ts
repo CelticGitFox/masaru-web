@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LayoutModule } from '../../layout/layout.module';
-import { ServiciosComponent } from './servicios.component';
+import { ProductosComponent } from './productos.component';
 import { RouterModule } from '@angular/router';
 import { LoaderModule } from '../../common/loader/loader.module';
 import { NgxSpinnerModule } from "ngx-spinner";
@@ -13,11 +13,11 @@ import { NgxSpinnerModule } from "ngx-spinner";
     LayoutModule,
     NgxSpinnerModule,
     RouterModule.forChild([
-      {path: '', component: ServiciosComponent}
+      {path: '', component: ProductosComponent}
     ]),
   ],
-  declarations: [ServiciosComponent],
-  exports: [ServiciosComponent]
+  declarations: [ProductosComponent],
+  exports: [ProductosComponent]
 })
-export class ServiciosModule {
+export class ProductosModule {
 }

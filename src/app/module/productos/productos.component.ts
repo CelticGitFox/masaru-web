@@ -3,11 +3,11 @@ import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-dashboard',
-  templateUrl: './servicios.component.html',
-  styleUrls: ['./servicios.component.sass']
+  templateUrl: './productos.component.html',
+  styleUrls: ['./productos.component.sass']
 })
 
-export class ServiciosComponent implements OnInit {
+export class ProductosComponent implements OnInit {
   public images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
   constructor(

@@ -1,5 +1,25 @@
-<div class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+<div class="bg-blue">
+    <div class="container">
+        <div class="row d-flex justify-content-end p-3 align-items-center">
+            <div class="col-md-6 d-flex justify-content-end">
+                <div class="d-flex w-50 input-man mr-4">
+                    <div class="input-bro d-flex align-items-center">
+                        <input type="search" placeholder="Busqueda..." name="" id="" class="form-control">
+                        <i class="fas fa-search text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="d-flex align-items-center justify-content-between">
+                    <p class="text-white m-0 text-flag">En</p>
+                    <img src="assets/img/uk.png" alt="uk" class="img-fluid flag">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
         <div class="container">
             <!-- <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="logo"></a> -->
             <h1>Logo</h1>
@@ -13,11 +33,11 @@
                         <a class="nav-link" [routerLink]="['/home']">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" [routerLink]="['/servicios']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Productos
                       </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" [routerLink]="['/productos']">Shock</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
@@ -33,13 +53,44 @@
             </div>
         </div>
     </nav>
+    <router-outlet></router-outlet>
 </div>
-<div style="margin-bottom: 80px"></div>
-<router-outlet></router-outlet>
 
 
-<footer class="text-white bg-footer">
-    <h1>Footer</h1>
+<footer class="">
+    <div class="row">
+        <div class="col-md-4 br-solid"></div>
+        <div class="col-sm-6 col-md-2 flex-column d-flex link br-solid">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Nosotros</a>
+            <a href="#">contactos</a>
+        </div>
+        <div class="col-sm-6 col-md-2 flex-column d-flex link">
+            <p class="m-0 font-weight-bold text-uppercase">Productos</p>
+            <a href="#">Shock Absorber</a>
+            <a href="#">Base Amortiguador</a>
+            <a href="#">Control Arm</a>
+            <a href="#">Stabilizer Link</a>
+            <a href="#">Tie Rod End</a>
+            <a href="#">Rack End</a>
+            <a href="#">Ball Joint</a>
+        </div>
+        <div class="col-sm-12 col-md-4 social">
+            <p class="m-0 font-weight-bold text-uppercase">Siguenos en nuestras redes</p>
+            <div class="d-flex link">
+                <div>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <!-- Scroll to Top Button-->

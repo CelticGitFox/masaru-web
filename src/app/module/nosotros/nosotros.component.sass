@@ -1,104 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,4000,5000,6000,7000,8001,4001,5001,6001,7001,800&display=swap')
 
-$morado: #585da3
-$fucsia: #6d3389
-
-.text-morado
-  color: $morado
-
-.titulo-header
-  font-size: 5rem
-  line-height: 1!important
-  font-weight: 600
-  font-style: italic
+.title-nosotros
   color: white
-  width: min-content
-
-.titulo-team
   font-size: 3rem
-  line-height: 1 !important
+  line-height: 1
+  font-weight: 800
+
+.title-proposito
+  font-size: 3rem
+  line-height: 1
   font-weight: 600
-  font-style: italic
-  color: $morado
+  text-align: center
 
-.bg-morado-agua
-  background-color: #f3f7ff
+.h-100
+  height: 100%
 
-.relative
-  position: relative
+.subrayado
+  background-color: red
+  padding: 10px 0.5em
 
-.text-position
-  position: absolute
-  top: 34%
-  z-index: 1000
-  color: white
+.parrafo
+  font-size: initial
+  font-weight: 300
+  color: #fff
+  text-align: center
+  line-height: 1.8
 
-.team
-  height: 330px!important
-  object-fit: contain!important
+.parrafo-footer
+  font-size: initial
+  font-weight: 300
+  color: #fff
+  line-height: 1.8
+  >span
+    font-weight: 800
 
-.position-team
-  margin-top: -100px!important
+.w-35
+  width: 35%
 
-.vh60
-  height: 60vh!important
+.w-40
+  width: 40%
+
+.last-product
+  line-height: 1.6
+  text-align: justify
+  font-size: 2rem
+
+.last-content
+  display: grid
+  grid-template-columns: 1fr 1fr
 
 @media (max-width: 768px)
-  .img-header
-    display: none
-  .text-position
-    top: 40%!important
-  
-  .titulo-header
-    font-size: 2rem!important
-
-  .text-position > .texto
-    font-size: small
-
-  .sm-bg-morado
-    background-color: $morado
-    height: 300px
-
-.text-position > .texto
-    width: 85%!important
-
-@media screen and (min-width: 300px) and (max-width: 768px)
-  .sm-col-6
-    max-width: 86%!important
-
-@media screen and (min-width: 768px) and (max-width: 992px)
-  .sm-col-full
-    flex: 0 0 100%!important
-    max-width: 100%!important
-  
-  .titulo-header
-    font-size: 2.3rem!important
-  
-  .text-position
-    top: 50%!important
-
-  .text-position > p
-    font-size: small
-  
-  .text-position > .texto
+  .w-40
     width: 100%!important
 
-  .sm-col-6
-    max-width: 86%!important
+  .w-35
+    width: 100%!important
 
-@media (max-width: 767px)
-  .bg-morado-agua
-    display: none
+  .last-content
+    display: grid
 
-@media (max-width: 992px)
-  .position-team
-    margin-top: 0!important
-  .vh60
-    height: auto!important
+  .product-title
+    line-height: 1.5
 
-  .text-position > .texto
-    width: 95%!important
-
-@media (max-width: 1672px)
-  .text-position > .texto
-    width: 85%!important
+@media (max-width: 1208px)
+  .last-product
+    font-size: 1rem
