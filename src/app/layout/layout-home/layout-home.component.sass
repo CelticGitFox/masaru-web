@@ -25,9 +25,9 @@ li .active
   font-size: 20px
   text-transform: uppercase
 
-.form-control
+.transparent-control
   background: transparent!important
-  border: inherit !important
+  border: transparent !important
   color: white!important
 
 .bg-blue
@@ -75,3 +75,7 @@ footer
 
 .br-solid
   border-right: 1px solid
+
+@media (max-width: 575px)
+  .br-solid
+    border: 1px solid transparent!important
