@@ -10,13 +10,14 @@ import {RackEndComponent} from "./rackEnd/rackEnd.component";
 import {ShockAdsorberComponent} from "./shockAdsorber/shockAdsorber.component";
 import {StabilizerLinkComponent} from "./stabilizerLink/stabilizerLink.component";
 import {TieRodEndComponent} from "./TieRodEnd/TieRodEnd.component";
+import {ProductosComponent} from "./productos.component";
 
 @NgModule({
   imports: [
     AuthModule,
     RouterModule.forChild([
       {
-        path: '', component: ListaProductosComponent,
+        path: '', component: ProductosComponent,
         children: [
           {path: 'Lista_Productos', component: ListaProductosComponent },
           {path: 'Ball_Join', component: BallJointComponent },

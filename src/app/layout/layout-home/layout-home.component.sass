@@ -1,4 +1,4 @@
-
+$rojo: #cc0100
 nav
   background-color: #192440
 
@@ -6,6 +6,14 @@ nav
   >a
     text-transform: uppercase
     color: #fff!important
+.separator-nav
+  display: flex
+  width: 50%
+  justify-content: space-between
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active
+    color: #fff
+    border-bottom: 2px solid $rojo
 
 .flag
   width: 40px
@@ -27,7 +35,7 @@ li .active
 
 .input-man
   border-radius: 10px 
-  border: 1px solid red
+  border: 1px solid $rojo
 
 footer
   background-color: #192440
@@ -41,7 +49,7 @@ footer
 
 .link
   >p
-    color: red
+    color: $rojo
     font-style: italic
 
 .social
@@ -62,7 +70,7 @@ footer
         align-items: center
         font-size: 25px
   >p
-    color: red
+    color: $rojo
     font-style: italic
 
 .br-solid

@@ -1,0 +1,66 @@
+$blue: #192440
+$rojo: #cc0100
+.text-blue
+  color: $blue
+
+.titulo-header
+  font-size: 3rem
+  line-height: 1 !important
+  font-weight: 800
+  font-style: italic
+  color: $blue
+  text-align: left
+
+.subtitulo
+  color: $rojo
+  font-weight: 700
+  text-align: center
+
+.img-producto
+  height: 228px
+  object-fit: contain
+
+.bg-red
+  background-color: $rojo
+  padding: 5px
+
+@media (max-width: 768px)
+  .titulo-header
+    font-size: 2rem!important
+
+  .worker
+    display: none
+
+  .w-40
+    width: 100%!important
+
+  .w-35
+    width: 100%!important
+
+  .titulo-header
+    width: inherit!important
+    text-align: left!important
+    color: #192440
+
+  .linea
+    display: none
+
+  .leyenda
+    line-height: 1
+
+  .last-content
+    display: grid
+
+  .product-title
+    line-height: 1.5
+
+@media (max-width: 1208px)
+  .last-product
+    font-size: 1rem
+
+  .last-content
+    display: block!important
+
+@media screen and (min-width: 1208px) and (max-width: 1490px)
+  .last-product
+    font-size: 1.5rem
