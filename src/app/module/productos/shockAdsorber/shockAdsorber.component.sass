@@ -74,7 +74,8 @@ $rojo: #cc0100
     background-color: #fff
     color: $blue
 
-
+.xs-si
+  display: none
 
 .last-product
   line-height: 1.6
@@ -123,6 +124,13 @@ $rojo: #cc0100
 
   .br-solid
     border: inherit
+
+@media screen and ( max-width: 1199px )
+  .xs-no
+    display: none 
+
+  .xs-si
+    display: block!important 
 
 @media (max-width: 1208px)
   .last-product
