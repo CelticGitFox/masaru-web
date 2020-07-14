@@ -27,6 +27,7 @@ $rojo: #cc0100
   background: $rojo
   padding: 21px 0.5em
   color: white
+  text-align: center
 
 .bg-red
   background-color: $rojo
@@ -66,9 +67,19 @@ $rojo: #cc0100
   display: grid
   grid-template-columns: 1fr 1fr
 
-@media (max-width: 768px)
+.w-title
+  width: 645px  
+
+@media screen and ( min-width: 340px ) and (max-width: 640px)
   .title-nosotros
     font-size: 2rem
+
+  .w-title
+    width: 450px
+
+@media screen and ( min-width: 640px ) and (max-width: 768px)
+  .title-nosotros
+    font-size: 3rem
 
   .w-40
     width: 100%!important
@@ -104,3 +115,6 @@ $rojo: #cc0100
 @media (max-width: 1208px)
   .last-product
     font-size: 1rem
+  
+  .w-35
+    width: 53%!important

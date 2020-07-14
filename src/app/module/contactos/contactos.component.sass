@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,4000,5000,6000,7000,8001,4001,5001,6001,7001,800&display=swap')
 
+$blue: #192440
+$rojo: #cc0100
+
 .title-contact
   color: white
   font-size: 3rem
@@ -9,7 +12,7 @@
 .btn-red
     border: 1px solid
     color: #fff
-    background-color: red
+    background-color: $rojo
     padding: .5em
     border-radius: 8px
     text-align: center
@@ -38,20 +41,21 @@
 .title
   font-size: 1.5rem
   font-weight: 600
+  color: $blue
 
 .padding-card
   padding: 0 25px 
 
 .link
   >p
-    color: red
+    color: $rojo
     font-style: italic
 
 .social
   >.link
     display: flex
     >div
-      color: red
+      color: $rojo
       border: 1px solid
       height: 50px
       width: 50px
@@ -60,10 +64,20 @@
       display: flex
       justify-content: center
       >a
-        color: red
+        color: $rojo
         display: flex
         align-items: center
         font-size: 25px
+
+.icono
+  width: 59px!important
+
+.font-weight-600
+  font-weight: 600
+  color: $blue
+
+.text-rojo
+  color: $rojo
 
 @media (max-width: 768px)
   .w-40
