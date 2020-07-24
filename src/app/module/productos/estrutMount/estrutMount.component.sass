@@ -1,0 +1,151 @@
+$blue: #192440
+$rojo: #cc0100
+.text-blue
+  color: $blue
+
+.titulo-header
+  font-size: 4rem
+  line-height: 1 !important
+  font-weight: 800
+  font-style: italic
+  color: $blue
+  text-align: right
+
+.subrayado
+  background-image: linear-gradient(115deg, transparent 6%, $rojo 0%, $rojo 93%, transparent 2%)
+  padding: 21px 2.5em
+  font-size: 3em
+  font-weight: 600
+  color: white
+
+.titulo-header-1
+  font-size: 4rem
+  line-height: 1 !important
+  font-weight: 800
+  font-style: italic
+
+.border-red
+  border: 2px solid $rojo
+  border-radius: 15px
+  padding: 15px
+
+.atributo-title
+  font-weight: 700
+  color: $rojo
+  font-size: 20px
+
+.product-title
+  font-size: 30px
+  font-weight: 800
+  font-style: italic
+  color: $rojo
+  text-align: center
+
+.w-44
+  width: 44%
+
+// fin elemento 1
+
+
+
+.w-35
+  width: 35%
+
+.w-40
+  width: 40%
+
+.btn-red
+  border: 1px solid
+  color: $rojo
+  border-color: $rojo
+  padding: .5em
+  border-radius: 8px
+  text-align: center
+
+.btn-white
+  border: 1px solid
+  color: white
+  border-color: white
+  padding: .5em
+  border-radius: 8px
+  text-align: center
+  transition: all .3s ease
+  &:hover
+    background-color: #fff
+    color: $blue
+
+.xs-si
+  display: none
+
+.last-product
+  line-height: 1.6
+  text-align: justify
+  font-size: 2rem
+
+.last-content
+  display: grid
+  grid-template-columns: 1fr 1fr
+
+@media (max-width: 768px)
+  .titulo-header
+    font-size: 2rem!important
+  
+  .subrayado
+    font-size: 2rem!important
+
+  .worker
+    display: none
+
+  .w-40
+    width: 100%!important
+
+  .w-35
+    width: 100%!important
+
+  .w-44
+    width: 100%
+
+  .titulo-header
+    width: inherit!important
+    text-align: left!important
+    color: #192440
+
+  .linea
+    display: none
+
+  .leyenda
+    line-height: 1
+
+  .last-content
+    display: grid
+
+  .product-title
+    line-height: 1.5
+
+  .br-solid
+    border: inherit
+
+@media screen and ( max-width: 1199px )
+  .xs-no
+    display: none 
+
+  .xs-si
+    display: block!important 
+
+@media (max-width: 1208px)
+  .last-product
+    font-size: 1rem
+
+  .last-content
+    display: block!important
+
+  .titulo-header
+    font-size: 2rem!important
+
+  .subrayado
+    font-size: 2rem!important
+
+
+@media screen and (min-width: 1208px) and (max-width: 1490px)
+  .last-product
+    font-size: 1.5rem

@@ -11,6 +11,8 @@ import {ShockAdsorberComponent} from "./shockAdsorber/shockAdsorber.component";
 import {StabilizerLinkComponent} from "./stabilizerLink/stabilizerLink.component";
 import {TieRodEndComponent} from "./TieRodEnd/TieRodEnd.component";
 import {ProductosComponent} from "./productos.component";
+import { estrutMountComponent } from './estrutMount/estrutMount.component';
+import { catalagoProductoComponent } from './catalagoProducto/catalagoProducto.component';
 
 @NgModule({
   imports: [
@@ -27,6 +29,8 @@ import {ProductosComponent} from "./productos.component";
           {path: 'Shock_Absorber', component: ShockAdsorberComponent },
           {path: 'Stabilizer_Link', component: StabilizerLinkComponent },
           {path: 'Tie_Rod_End', component: TieRodEndComponent },
+          {path: 'estrutMount', component: estrutMountComponent},
+          {path: 'catalagoProducto', component: catalagoProductoComponent}
         ]
       }
     ])
