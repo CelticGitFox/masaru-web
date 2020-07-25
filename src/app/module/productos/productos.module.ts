@@ -16,6 +16,8 @@ import {TieRodEndComponent} from "./TieRodEnd/TieRodEnd.component";
 import {ProductosRoutes} from "./productos.routes";
 import {SuspensionPartsComponent} from "./suspensionParts/suspensionParts.component";
 import {ControlArmBushingComponent} from "./controlArmBushing/controlArmBushing.component";
+import { estrutMountComponent } from './estrutMount/estrutMount.component';
+import { catalagoProductoComponent } from './catalagoProducto/catalagoProducto.component';
 
 @NgModule({
   imports: [
@@ -36,7 +38,10 @@ import {ControlArmBushingComponent} from "./controlArmBushing/controlArmBushing.
     StabilizerLinkComponent,
     TieRodEndComponent,
     SuspensionPartsComponent,
-    ControlArmBushingComponent
+    ControlArmBushingComponent,
+    TieRodEndComponent,
+    estrutMountComponent,
+    catalagoProductoComponent
   ],
   exports: [ProductosComponent]
 })
