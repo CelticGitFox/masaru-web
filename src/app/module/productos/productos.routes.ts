@@ -11,6 +11,8 @@ import {ShockAdsorberComponent} from "./shockAdsorber/shockAdsorber.component";
 import {StabilizerLinkComponent} from "./stabilizerLink/stabilizerLink.component";
 import {TieRodEndComponent} from "./TieRodEnd/TieRodEnd.component";
 import {ProductosComponent} from "./productos.component";
+import {SuspensionPartsComponent} from "./suspensionParts/suspensionParts.component";
+import {ControlArmBushingComponent} from "./controlArmBushing/controlArmBushing.component";
 
 @NgModule({
   imports: [
@@ -27,6 +29,8 @@ import {ProductosComponent} from "./productos.component";
           {path: 'Shock_Absorber', component: ShockAdsorberComponent },
           {path: 'Stabilizer_Link', component: StabilizerLinkComponent },
           {path: 'Tie_Rod_End', component: TieRodEndComponent },
+          {path: 'Suspension_Parts', component: SuspensionPartsComponent },
+          {path: 'Control_Arm_Bushing', component: ControlArmBushingComponent },
         ]
       }
     ])

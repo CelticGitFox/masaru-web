@@ -4,25 +4,12 @@ $rojo: #cc0100
   color: $blue
 
 .titulo-header
-  font-size: 4rem
+  font-size: 3rem
   line-height: 1 !important
   font-weight: 800
   font-style: italic
   color: $blue
-  text-align: right
-
-.subrayado
-  background-image: linear-gradient(115deg, transparent 6%, red 0%, red 93%, transparent 2%)
-  padding: 21px 0.5em
-  font-size: 3em
-  font-weight: 600
-  color: white
-
-.titulo-header-1
-  font-size: 4rem
-  line-height: 1 !important
-  font-weight: 800
-  color: $rojo
+  text-align: left
 
 .subtitulo
   color: $rojo
@@ -37,17 +24,35 @@ $rojo: #cc0100
   background-color: $rojo
   padding: 5px
 
-.border-red
-  border: 2px solid $rojo
-  border-radius: 15px
-  padding: 15px
+@media (max-width: 768px)
+  .titulo-header
+    font-size: 2rem!important
 
-.atributo-title
-  font-weight: 700
-  color: $rojo
-  font-size: 20px
+  .worker
+    display: none
 
-// Part
+  .w-40
+    width: 100%!important
+
+  .w-35
+    width: 100%!important
+
+  .titulo-header
+    width: inherit!important
+    text-align: left!important
+    color: #192440
+
+  .linea
+    display: none
+
+  .leyenda
+    line-height: 1
+
+  .last-content
+    display: grid
+
+  .product-title
+    line-height: 1.5
 
 @media (max-width: 1208px)
   .last-product
