@@ -5,7 +5,7 @@
         <div class="d-flex justify-content-end">
             <div class="text-center">
                 <p class="titulo-header text-blue">SHOCK ADSORBER</p>
-                <p class="subrayado">Safety Comes firs</p>
+                <p class="subrayado">{{ 'shock.subtitle' | translate }}</p>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="text-left">
                         <p class="titulo-header-1 text-blue">Lorem, ipsum.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatem ea enim, quod tempora eius accusantium non dignissimos ipsum ex tenetur officia numquam aspernatur, unde modi vero, explicabo est fuga.</p>
+                        <p>{{ 'shock.description1' | translate }}</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -35,8 +35,8 @@
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="text-left">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatem ea enim, quod tempora eius accusantium non dignissimos ipsum ex tenetur officia numquam aspernatur, unde modi vero, explicabo est fuga.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatem ea enim, quod tempora eius accusantium non dignissimos ipsum ex tenetur officia numquam aspernatur, unde modi vero, explicabo est fuga.</p>
+                        <p>{{ 'shock.description2' | translate }}</p>
+                        <p>{{ 'shock.description3' | translate }}</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="text-left">
                         <p class="titulo-header-1 text-blue">Lorem, ipsum.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatem ea enim, quod tempora eius accusantium non dignissimos ipsum ex tenetur officia numquam aspernatur, unde modi vero, explicabo est fuga.</p>
+                        <p>{{ 'shock.description4' | translate }}</p>
                     </div>
                 </div>
                 <div class="col-md-6 p-0">
@@ -62,25 +62,25 @@
             <div class="row">
                 <div class="col-md-6 mt-4">
                     <div class="border-red">
-                        <p class="atributo-title">ATRIBUTOS</p>
+                        <p class="atributo-title">{{ 'general.attributes' | translate }}</p>
+                        <p>{{ 'shock.description6' | translate }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="border-red">
+                        <p class="atributo-title">{{ 'general.attributes' | translate }}</p>
+                        <p>{{ 'shock.description7' | translate }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="border-red">
+                        <p class="atributo-title">{{ 'general.attributes' | translate }}</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi illum nesciunt iste, maxime mollitia at, ea rerum eius doloremque explicabo beatae tempore quisquam error et quasi omnis ipsam deserunt.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="border-red">
-                        <p class="atributo-title">ATRIBUTOS</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi illum nesciunt iste, maxime mollitia at, ea rerum eius doloremque explicabo beatae tempore quisquam error et quasi omnis ipsam deserunt.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="border-red">
-                        <p class="atributo-title">ATRIBUTOS</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi illum nesciunt iste, maxime mollitia at, ea rerum eius doloremque explicabo beatae tempore quisquam error et quasi omnis ipsam deserunt.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="border-red">
-                        <p class="atributo-title">ATRIBUTOS</p>
+                        <p class="atributo-title">{{ 'general.attributes' | translate }}</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi illum nesciunt iste, maxime mollitia at, ea rerum eius doloremque explicabo beatae tempore quisquam error et quasi omnis ipsam deserunt.</p>
                     </div>
                 </div>
@@ -88,14 +88,14 @@
         </div>
     </div>
     <div class="container p-5 bg-light mt-5">
-        <p class="product-title mb-5">Grupo de Productos</p>
+        <p class="product-title mb-5">{{ 'shock.group' | translate }}</p>
         <div class="p-5 xs-no" style="background-image: url(assets/img/banner-1.png); background-size: cover; height: 400px;background-position: bottom;">
             <div class="container">
                 <div class="d-flex justify-content-end">
                     <div class="w-44">
                         <p class="titulo-header">Suspension Parts</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.</p>
-                        <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block">VER PRODUCTOS</a>
+                        <p>{{ 'shock.suspensions' | translate }}</p>
+                        <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block">{{ 'general.show_products' | translate }}</a>
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@
         <div class="d-flex justify-content-center ">
             <div class="xs-si d-none my-5">
                 <p class="titulo-header text-center">Suspension Parts</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.</p>
+                <p>{{ 'shock.suspensions' | translate }}</p>
                 <div class="d-flex justify-content-center">
-                    <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block" style="width: fit-content;">VER PRODUCTOS</a>
+                    <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block" style="width: fit-content;">{{ 'general.show_products' | translate }}</a>
                 </div>
             </div>
         </div>
@@ -115,8 +115,8 @@
                 <div class="d-flex justify-content-start align-items-center" style="height: -webkit-fill-available;">
                     <div class="text-white" style="width: 57%;">
                         <p class="titulo-header-1 text-left">ESTRUT MOUNT</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.</p>
-                        <a [routerLink]="['/productos/Suspension_Parts']" class="btn-white btn-block text-uppercase w-44 m-auto">catalago de producto</a>
+                        <p>{{ 'shock.estrut' | translate }}</p>
+                        <a [routerLink]="['/productos/Suspension_Parts']" class="btn-white btn-block text-uppercase w-44 m-auto">{{ 'general.catalogsProduct' | translate }}</a>
                     </div>
                 </div>
             </div>
@@ -126,9 +126,9 @@
             <div class="d-flex justify-content-center ">
                 <div class="xs-si d-none my-5">
                     <p class="titulo-header text-center">ESTRUT MOUNT</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.</p>
+                    <p>{{ 'shock.estrut' | translate }}</p>
                     <div class="d-flex justify-content-center">
-                        <a href="#" class="btn-red btn-block" style="width: fit-content;">VER PRODUCTOS</a>
+                        <a href="#" class="btn-red btn-block" style="width: fit-content;">{{ 'general.catalogsProduct' | translate }}</a>
                     </div>
                 </div>
             </div>

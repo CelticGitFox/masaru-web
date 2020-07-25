@@ -1,0 +1,168 @@
+{
+  "general":
+  {
+    "contact": "CONOCENOS",
+    "contactus": "CONTACTANOS",
+    "ver": "VER MÁS",
+    "download": "DESCARGAR PDF",
+    "information": "INFORMACIÓN DE INGENIERÍA",
+    "atributte": "ATRIBUTO",
+    "products": "PRODUCTOS",
+    "simillar_product": "PRODUCTOS SIMILARES",
+    "show_products": "VER PRODUCTOS",
+    "product": "Productos",
+    "productUpper": "PRODUCTOS",
+    "catalogsProduct": "Catalogo de Producto",
+    "attributes": "ATRIBUTOS",
+    "redes": "Siguenos en nuestras redes",
+    "search": "Busqueda..."
+  },
+  "header":
+  {
+    "menu1": "INICIO",
+    "menu2": "PRODUCTOS",
+    "menu3": "NOSOTROS",
+    "menu4": "CONTACTOS",
+    "submenu1": "Catalogo de productos"
+  },
+  "banners1": {
+    "title": "Entendemos",
+    "subtitle": "Tus necesidades",
+    "button": "CATALOGO DE PRODUCTOS"
+  },
+  "banners2": {
+    "title": "Tu compañero silencioso"
+  },
+  "banners3": {
+    "ad": "Producto Premium",
+    "title": "Lo primero es lo primero",
+    "subtitle": "Características de los PRODUCTOS",
+    "option1": "LIMITA LAS VIBRACIONES EXCESIVAS Y LAS OSCILACIONES DE DAÑOS",
+    "option2": "EXCELENTE MANEJO EN SUPERFICIE",
+    "option3": "RESISTENCIA AL DESGASTE SUPERIOR",
+    "option4": "RENDIMIENTO CONSISTENTE Y VIDA MEJORADA"
+  },
+  "leading":
+  {
+    "suspensions": "Manteniendo su vehículo nivelado y fácil de manejar",
+    "title": "Beneficio para comprar en Masaru",
+    "photo1": "Luchando por",
+    "photo1.1": "Excelencia",
+    "photo2": "Seguridad",
+    "photo2.1": "Es lo primero",
+    "photo3": "Impulsado por",
+    "photo3.1": "Innovación",
+    "photo4": "Eleción de",
+    "photo4.1": "Maquinas",
+    "best": "SÓMOS TÚ MEJOR OPCIÓN",
+    "best1": "No dude en contactarnos con cualquier pregunta o sugerencia.",
+    "best2": "Siempre estamos buscando nuevas ideas y productos para satisfacer sus necesidades."
+},
+  "catalogs":
+  {
+    "title": "Lo mejor selección, la mejor calidad: Masaru ofrece las piezas de repuesto adecuadas para todos los tipos de vehículos eruopeos estándar en calidad de compatibilidad OE probada.",
+    "suspensions": "Manteniendo su vehículo nivelado y fácil de manejar",
+    "estrut": "Manteniendo sus puntales firmemente en su lugar.",
+    "title2": "La mejor selección, la mejor calidad.",
+    "description2": "La mejor seleccón, la mejor calidad: Masaru ofrece las piezas de repuesto adecuadas para todos los tipos de vehículos europeos estándar en calidad de compatibilidad OE probada. También ofrecemos piezas febi PLUS que, de lo contrario, solo son ofrecidas por OE."
+  },
+  "about_us":
+  {
+    "title1": "No es como lo hacemos,",
+    "title2": "si no como lo hacemos",
+    "description1": "es el principio fundamental que une a todos los miembros de nuestra organización. Estamos convencidos de que cuando no podamos ser mejores, será el día en que nos detendremos, porque en ese momento ya no nos estaremos retando a nosotros mismos.",
+    "title3": "Nuestro propósito",
+    "description3": "Sabemos que el tiempo es invaluable, lo que nos inspira a hacer tu vida libre de preocupaciones innecesarias a través de productos para tu vehículo que te garanticen seguridad, excelente desempeño y durabilidad.",
+    "title4": "Nuestros principios",
+    "description4.1": "El mundo hoy es diferente de ayer,",
+    "description4.11": "debemos ir un paso adelante",
+    "description4.2": "Tú eres",
+    "description4.21": "nuestro principal pensamiento",
+    "description4.3": "No importa que,",
+    "description4.31": "la transparencia y la integridad son un deber",
+    "description4.4": "La satisfacción",
+    "description4.41": "deja más recuerdos que el producto en si"
+  },
+  "contact_us":
+  {
+    "title1": "Formulario de Contacto",
+    "title2": "Escribe un mensaje",
+    "form1": "Nombre y Apellido",
+    "form2": "Correo Electrónico",
+    "form3": "Organización/ Empresa",
+    "form4": "Tema",
+    "button": "Siguiente"
+  },
+  "estrut": {
+    "description1": "La Base de Amortiguador absorbe/reduce las vibraciones del vehículo, dando lugar a una experiencia de viaje y manejo más confortable al tiempo que exitende la vida de su sistema de suspensión.",
+    "description2": "Gomas de alta resistencia a la abrasión, el desgaste y  rasgaduras.",
+    "description3": "Diseño de ingeniería orientado a cumplir con todos los requerimientos de manejo exigidos.",
+    "description4": "Forma, ajuste y funcionalidad superiores para asegurar mayor vida útil y fácil instalación.",
+    "suspensions": "Manteniendo su vehículo nivelado y fácil de manejar",
+    "subtitle": "La seguridad es lo primero"
+  },
+  "shock": {
+    "subtitle": "La seguridad es lo primero",
+    "description1": "Los amortiguadores controlan el movimiento de impacto y rebote de los muelles y la suspensión de su automóvil. Absorben las vibraciones del sistema de suspensión para evitar que se produzca un desplazamiento accidentado",
+    "description2": "Los amortiguadores funcionan como una bomba de aceite para disipar las vibraciones del sistema de suspensión al convertir la energía cinética en calor",
+    "description3": "Además, los amortiguadores ayudan a soportar el peso del vehículo y aseguran que los neumáticos estén siempre en contacto con la carretera",
+    "description4": "Limita las vibraciones excesivas y las oscilaciones de humedad",
+    "description5": "Excelente manejo en superficie",
+    "description6": "Resistencia al desgaste superior",
+    "description7": "Rendimiento constante y vida útil mejorada",
+    "suspensions": "Manteniendo su vehículo nivelado y fácil de manejar",
+    "estrut": "Manteniendo sus puntales firmemente en su lugar.",
+    "group": "Grupo de Productos"
+  },
+  "ball_joint":
+  {
+    "description1": "Las rótulas soportan el peso del vehículo",
+    "description2": "Revestimiento de alta resistencia para proteger contra la corrosión",
+    "description3": "Lubricación duradera",
+    "description4": "Hecho de acero duradero resistente al desgaste"
+  },
+  "tie_rod":
+  {
+    "description1": "Los extremos de la barra de acoplamiento ayudan a dirigir el vehículo haciendo girar las ruedas",
+    "description2": "Hecho de material de acero de alta calidad",
+    "description3": "Articulaciones esféricas apretadas para evitar la entrada de agua y suciedad",
+    "description4": "Recubrimiento de alta resistencia para proteger contra la corrosión"
+  },
+  "suspensions":
+  {
+    "description1": "Las partes de suspensión soportan el peso del vehículo, absorben los impactos  y ayudan a mantener la altura correcta del vehículo.",
+    "description2": "Todas las partes de suspensión ofrecen:",
+    "description3": "- Sofisticadas aleaciones de materiales que aseguran mayor durabilidad.",
+    "description4": "- Sellos resistentes al desgaste.",
+    "description5": "-Forma, ajuste y funcionalidad superiores que garantizan una vida útil más larga y fácil instalación.",
+    "description6": "Nota: Los diseños varían de acuerdo a las distintas aplicaciones."
+  },
+  "control_arm":
+  {
+    "description1": "Control arms connect the front wheel to your car's suspension.",
+    "description2": "Made from high quality steel material",
+    "description3": "Bushings made from durable natural rubber.",
+    "description4": "Engineered to meet strict driving requirements.",
+    "description5": "Los bujes de brazos de control reducen el ruido y vibraciones del vehiculo, dando lugar a una experiencia de viaje y manejo mas confortable.",
+    "description6": "Todas los bujes de brazos de control DANAPAC ofrecen:",
+    "description7": "- Material de alta durabilidad, resistente a la corrosión y abrasión.",
+    "description8": "- Diseño de ingeniería orientado a cumplir con todos los requerimientos de manejo exigidos.",
+    "description9": "- Forma, ajuste y funcionalidad superiores para asegurar mayor vida útil y fácil instalación.",
+    "description10": "Nota: los diseños varían de acuerdo a las diferentes aplicaciones."
+  },
+  "rack_end":
+  {
+    "description1": "Agregar mensaje",
+    "description2": "Excelente valor de oscilación del perno prisionero",
+    "description3": "Buena resistencia al arranque",
+    "description4": "Material duradero que es resistente a la corrosión y la abrasión."
+  },
+  "stabilizer":
+  {
+    "description1": "Los enlaces estabilizadores evitan que el vehículo se balancee demasiado y mejora la rigidez del automóvil",
+    "description2": "Caucho diseñado para una fuerte resistencia a la abrasión y un desgaste prolongado".
+    "description3": "Hecho de material de acero de alta calidad",
+    "description4": "Articulaciones esféricas apretadas para evitar la entrada de agua y suciedad."
+  }
+}
+

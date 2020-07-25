@@ -12,9 +12,9 @@
                     <div class="container">
                         <div class="d-flex">
                             <div class="text-center">
-                                <p class="slide-title">We Understand</p>
-                                <p class="subrayado mb-4">Your Needs</p>
-                                <a [routerLink]="['/productos/listado']" class="btn-white text-uppercase">Catalago de productos</a>
+                                <p class="slide-title">{{ 'banners1.title' | translate }}</p>
+                                <p class="subrayado mb-4">{{ 'banners1.subtitle' | translate }}</p>
+                                <a [routerLink]="['/productos/listado']" class="btn-white text-uppercase">{{ 'banners1.button' | translate }}</a>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                     <div class="container">
                         <div class="d-flex justify-content-end">
                             <div class="text-center">
-                                <p class="slide-title text-blue" style="font-size:3em!important;">Your Silent Companion
+                                <p class="slide-title text-blue" style="font-size:3em!important;">{{ 'banners2.title' | translate }}
                                 </p>
                             </div>
                         </div>
@@ -37,17 +37,14 @@
                     <div class="container">
                         <div class="d-flex">
                             <div class="text-center">
-                                <p class="slide-title-3">Producto Premium</p>
-                                <p class="subrayado">Comes Firs</p>
-                                <p class="slide-title text-uppercase" style="font-size: 2.5rem!important;">Product Features
-                                </p>
+                                <p class="slide-title-3">{{ 'banners3.ad' | translate }}</p>
+                                <p class="subrayado">{{ 'banners3.title' | translate }}</p>
+                                <p class="slide-title text-uppercase" style="font-size: 2.5rem!important;">{{ 'banners3.subtitle' | translate }}</p>
                                 <div class="text-left">
-                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>El mundo hoy es diferente de ayer, <span>debemos ir un paso adelante</span></p>
-                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i><span>Tú
-                                            eres</span> nuestro principal pensamiento</p>
-                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>No importa que, <span>la transparencia y la integridad son un deber</span></p>
-                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i><span>La
-                                            satisfacción</span> deja más recuerdos que el producto en si</p>
+                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>{{ 'banners3.option1' | translate }}</p>
+                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>{{ 'banners3.option2' | translate }}</p>
+                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>{{ 'banners3.option3' | translate }}</p>
+                                    <p class="parrafo-footer"><i class="fas fa-square mr-3 text-rojo"></i>{{ 'banners3.option4' | translate }}</p>
                                 </div>
                             </div>
                         </div>
@@ -70,9 +67,8 @@
         <div class="d-flex justify-content-end">
             <div class="w-35">
                 <p class="titulo-header">Suspension Parts</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.
-                </p>
-                <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block">VER PRODUCTOS</a>
+                <p>{{ 'leading.suspensions' | translate }}</p>
+                <a [routerLink]="['/productos/Suspension_Parts']" class="btn-red btn-block">{{ 'general.show_products' | translate }}</a>
             </div>
         </div>
     </div>
@@ -82,8 +78,8 @@
     <div class="d-flex justify-content-center">
         <div class="xs-si d-none">
             <p class="titulo-header text-center">Suspension Parts</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.</p>
-            <div class="d-flex justify-content-center"><a href="#" class="btn-red btn-block" style="width: fit-content;">VER PRODUCTOS</a></div>
+            <p>{{ 'leading.suspensions' | translate }}</p>
+            <div class="d-flex justify-content-center"><a href="#" class="btn-red btn-block" style="width: fit-content;">{{ 'general.show_products' | translate }}</a></div>
         </div>
     </div>
 </div>
@@ -93,7 +89,7 @@
     <div class="container p-5">
         <div class="d-flex justify-content-center m-auto">
             <div class="linea">&nbsp;</div>
-            <div class="leyenda">Beneficio para comprar en Masaru</div>
+            <div class="leyenda">{{ 'leading.title' | translate }}</div>
             <div class="linea">&nbsp;</div>
         </div>
         <div class="d-flex justify-content-center mt-3">
@@ -110,7 +106,8 @@
         height: 400px;
         background-position: center;">
             <div class="content-text">
-                Strinving for <br> Excellence
+              {{ 'leading.photo1' | translate }} <br>
+              {{ 'leading.photo1.1' | translate }}
             </div>
         </div>
         <div class="img-col" style="background-image: url(assets/img/b4.png);
@@ -118,7 +115,8 @@
         height: 400px;
         background-position: center;">
             <div class="content-text-right">
-                Safety <br> Comes Firs
+                {{ 'leading.photo2' | translate }} <br>
+                {{ 'leading.photo2.1' | translate }}
             </div>
         </div>
         <div class="img-col" style="background-image: url(assets/img/b2.png);
@@ -126,7 +124,8 @@
         height: 400px;
         background-position: center;">
             <div class="content-text">
-                Driven by <br> Innovation
+                {{ 'leading.photo3' | translate }} <br>
+                {{ 'leading.photo3.1' | translate }}
             </div>
         </div>
         <div class="img-col" style="background-image: url(assets/img/b3.png);
@@ -134,7 +133,8 @@
         height: 400px;
         background-position: center;">
             <div class="content-text-right">
-                Machanic's <br> Choice
+                {{ 'leading.photo4' | translate }} <br>
+                {{ 'leading.photo4.1' | translate }}
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@
     <div class="container p-5">
         <div class="d-flex justify-content-center m-auto">
             <div class="linea">&nbsp;</div>
-            <div class="leyenda">Productos Masaru</div>
+            <div class="leyenda">{{ 'general.product' | translate }} Masaru</div>
             <div class="linea">&nbsp;</div>
         </div>
         <div class="d-flex justify-content-center mt-3">
@@ -229,12 +229,12 @@
             </div>
             <div class="d-flex justify-content-end">
                 <div class="w-40 text-white">
-                    <p class="titulo-last">Sómos tú mejor opción</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet omnis nulla delectus tempora dolor.
-                    </p>
+                    <p class="titulo-last">{{ 'leading.best' | translate }}</p>
+                    <p>{{ 'leading.best1' | translate }}</p>
+                    <p>{{ 'leading.best2' | translate }}</p>
                     <div class="d-grid">
-                        <a [routerLink]="['/contactos']" class="btn-blue">Contactanos</a>
-                        <a [routerLink]="['/nosotros']" class="btn-white">Conocenos</a>
+                        <a [routerLink]="['/contactos']" class="btn-blue">{{ 'general.contactus' | translate }}</a>
+                        <a [routerLink]="['/nosotros']" class="btn-white">{{ 'general.contact' | translate }}</a>
                     </div>
                 </div>
             </div>

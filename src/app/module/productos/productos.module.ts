@@ -18,6 +18,9 @@ import {SuspensionPartsComponent} from "./suspensionParts/suspensionParts.compon
 import {ControlArmBushingComponent} from "./controlArmBushing/controlArmBushing.component";
 import { estrutMountComponent } from './estrutMount/estrutMount.component';
 import { catalagoProductoComponent } from './catalagoProducto/catalagoProducto.component';
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {HttpLoaderFactory} from "../../app.module";
+import {HttpClient} from "@angular/common/http";
 
 @NgModule({
   imports: [
@@ -26,6 +29,13 @@ import { catalagoProductoComponent } from './catalagoProducto/catalagoProducto.c
     LoaderModule,
     LayoutModule,
     NgxSpinnerModule,
+    TranslateModule.forChild({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   declarations: [
     ProductosComponent,

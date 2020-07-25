@@ -1,0 +1,169 @@
+{
+  "general":
+  {
+    "contact": "GET TO KNOW US",
+    "contactus": "CONTACT US",
+    "ver": "SEE MORE",
+    "download": "DOWNLOAD PDF",
+    "information": "ENGINEERING INFORMATION",
+    "atributte": "ATTRIBUTE",
+    "products": "PRODUCTS",
+    "simillar_product": "SIMILAR PRODUCTS",
+    "show_products": "SEE PRODUCTS",
+    "product": "Products",
+    "productUpper": "PRODUCTS",
+    "catalogsProduct": "Product Catalogs",
+    "attributes": "ATTRIBUTES",
+    "redes": "Follow us on our networks",
+    "search": "Search..."
+  },
+  "header":
+  {
+    "menu1": "HOME",
+    "menu2": "PRODUCTS",
+    "menu3": "ABOUT US",
+    "menu4": "CONTACT",
+    "submenu1": "Product Catalogs"
+  },
+  "banners1": {
+    "title": "We Understand",
+    "subtitle": "Your Needs",
+    "button": "PRODUCT CATALOGS"
+  },
+  "banners2": {
+    "title": "Your Silent Companion"
+  },
+  "banners3": {
+    "ad": "Product Premium",
+    "title": "Comes First",
+    "subtitle": "PRODUCTS Feactures",
+    "option1": "LIMITS EXCESSIVE VIBRATIONS AND DAMPS OSCILLATIONS",
+    "option2": "EXCELLENT HANDLING ON SURFACE",
+    "option3": "SUPERIOR WEAR RESISTANCE",
+    "option4": "CONSISTENT PERFOMANCE AND IMPROVED SERVICE LIFE"
+  },
+  "leading":
+  {
+    "suspensions": "Keeping your vehicle level and easy to handle",
+    "title": "Benefit to buy at Masaru",
+    "photo1": "Striving for",
+    "photo1.1": "Excellence",
+    "photo2": "Safety",
+    "photo2.1": "Comes First",
+    "photo3": "Driven by",
+    "photo3.1": "Innovation",
+    "photo4": "Machanic's",
+    "photo4.1": "Choice",
+    "best": "WE ARE YOUR BEST CHOICE",
+    "best1": "Feel free to contact us with any questions or suggestions.",
+    "best2": "We are always looking for new ideas and products to suit your needs."
+  },
+  "catalogs":
+  {
+    "title": "Best selection, best quality: Masaru offers the right spare parts for all types of standard European vehicles in OE tested compatibility quality.",
+    "suspensions": "Keeping your vehicle level and easy to drive",
+    "estrut": "Keeping your props firmly in place.",
+    "title2": "The best selection, the best quality.",
+    "description2": "The best selection, the best quality: Masaru offers the right spare parts for all types of European standard vehicles in proven OE compatibility quality. We also offer febi PLUS parts which are otherwise only offered by OE. "
+  },
+  "about_us":
+  {
+    "title1": "It is not how we do it,",
+    "title2": "if not how we do it",
+    "description1": "is the fundamental principle that unites all the members of our organization. We are convinced that when we cannot be better, it will be the day that we stop, because at that moment we will no longer be challenging ourselves.",
+    "title3": "Our purpose",
+    "description3": "We know that time is invaluable, which inspires us to make your life free of unnecessary worries through products for your vehicle that guarantee safety, excellent performance and durability.",
+    "title4": "Our principles",
+    "description4.1": "The world today is different from yesterday,",
+    "description4.11": "we must go one step further",
+    "description4.2": "You are",
+    "description4.21": "our main thought",
+    "description4.3": "It doesn't matter that,",
+    "description4.31": "transparency and integrity are a must",
+    "description4.4": "Satisfaction",
+    "description4.41": "leaves more memories than the product itself"
+  },
+  "contact_us":
+  {
+    "title1": "Contact Form",
+    "title2": "Write a message",
+    "form1": "Name and Surname",
+    "form2": "Email",
+    "form3": "Organization / Company",
+    "form4": "Subject",
+    "button": "Next"
+  },
+  "estrut":
+  {
+    "description1": "Suspension mounts absorb/reduce the vibrations throughout the vehicle to provide for a smooth ride while extending the life of your suspension parts.",
+    "description2": "Rubber designed for strong abrasion resistance and long wear and tear",
+    "description3": "Engineered to meet strict driving requirements",
+    "description4": "Superior form, fit, and function for longer service life and ease of installation",
+    "suspensions": "Keeping your vehicle level and easy to handle",
+    "subtitle": "Safety Comes firs"
+  },
+  "shock":
+  {
+    "subtitle": "Safety Comes firs",
+    "description1": "Shock absorbers control the impact and rebound movement of your car's springs and suspension.  They absorb the vibrations from the suspension system to prevent a bumpy ride from taking place.",
+    "description2": "Shock absorbers function as an oil pump to dissipate the vibrations from the suspension system by converting kinetic energy into heat.",
+    "description3": "Additionally shock absorbers helps suppor the weight of the vehicle and makes sure that  the tires are always in contact with the road.",
+    "description4": "Limits Excessive Vibrations And Damps Oscillations.",
+    "description5": "Excellent Handling On Surface",
+    "description6": "Superior Wear Resistance",
+    "description7": "Consistent Performance And Improved Service Life",
+    "suspensions": "Keeping your vehicle level and easy to drive",
+    "estrut": "Keeping your props firmly in place.",
+    "group": "Product group"
+  },
+  "ball_joint":
+  {
+    "description1": "Ball joints bear the weight of the vehicle",
+    "description2": "High resistance coating to protect from corrosion",
+    "description3": "Long lasting lubrication",
+    "description4": "Made from wear resistant durable steel"
+  },
+  "tie_rod":
+  {
+    "description1": "Tie rod ends help steer the vehicle by making the wheels turn.",
+    "description2": "Made from high quality steel material",
+    "description3": "Ball joints tightened to prevent water and dirt from entering",
+    "description4": "High resistance coating to protect from corrosion"
+  },
+  "suspensions":
+  {
+    "description1": "Suspension parts carry the weight of the vehicle, absorb shock forces, and maintain the correct riding height.",
+    "description2": "All suspension parts feature:",
+    "description3": "- Sophisticated alloy material providing superior durability.",
+    "description4": "- Wear resistant seals.",
+    "description5": "- Superior form, fit, and function for longer service life and ease of installation.",
+    "description6": "Note: design varies based on the different application."
+  },
+  "control_arm":
+  {
+    "description1": "Control arms connect the front wheel to your car's suspension.",
+    "description2": "Made from high quality steel material",
+    "description3": "Bushings made from durable natural rubber.",
+    "description4": "Engineered to meet strict driving requirements.",
+    "description5": "Control arm bushings reduce the noise and vibrations throughout the vehicle to provide for a smooth ride.",
+    "description6": "All DANAPAC control arm bushings feature:",
+    "description7": "- Durable material that is corrosion and abrasion resistant",
+    "description8": "- Engineered to meet strict driving requirements.",
+    "description9": "- Superior form, fit, and function for longer service life and ease of installation.",
+    "description10": "Note: design varies based on the different application."
+  },
+  "rack_end":
+  {
+    "description1": "Add message.",
+    "description2": "Superb stud swing value.",
+    "description3": "Good pullout strength.",
+    "description4": "Durable material that is corrosion and abrasion resistant."
+  },
+  "stabilizer":
+  {
+    "description1": "Stabilizer links prevents the vehicle from swaying too much and improves the stiffness of the car.",
+    "description2": "Rubber designed for strong abrasion resistance and long wear and tear.",
+    "description3": "Made from high quality steel material.",
+    "description4": "Ball joints tightened to prevent water and dirt from entering."
+  }
+}

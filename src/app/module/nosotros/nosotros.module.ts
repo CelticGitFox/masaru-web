@@ -5,6 +5,9 @@ import { NosotrosComponent } from './nosotros.component';
 import { RouterModule } from '@angular/router';
 import { LoaderModule } from '../../common/loader/loader.module';
 import { NgxSpinnerModule } from "ngx-spinner";
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {HttpLoaderFactory} from "../../app.module";
+import {HttpClient} from "@angular/common/http";
 
 @NgModule({
   imports: [
@@ -15,6 +18,13 @@ import { NgxSpinnerModule } from "ngx-spinner";
     RouterModule.forChild([
       {path: '', component: NosotrosComponent}
     ]),
+    TranslateModule.forChild({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   declarations: [NosotrosComponent],
   exports: [NosotrosComponent]

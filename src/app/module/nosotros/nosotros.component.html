@@ -1,9 +1,9 @@
 <div style="background-image: url(assets/img/nosotros.png); background-size: cover; height: 600px;">
     <div class="d-flex justify-content-center align-items-center h-100">
         <div class="title-nosotros w-title">
-            <p class="font-italic">"No es como lo hacemos,</p>
-            <p class="subrayado font-italic">si no como lo hacemos"</p>
-            <p class="parrafo">es el principio fundamental que une a todos los miembros de nuestra organización. Estamos convencidos de que cuando no podamos ser mejores, será el día en que nos detendremos, porque en ese momento ya no nos estaremos retando a nosotros mismos.</p>
+            <p class="font-italic">"{{ 'about_us.title1' | translate }}</p>
+            <p class="subrayado font-italic">{{ 'about_us.title2' | translate }}"</p>
+            <p class="parrafo">{{ 'about_us.description1' | translate }}</p>
         </div>
     </div>
 </div>
@@ -14,10 +14,10 @@
     <div class="bg-light p-5 text-dark d-flex align-items-center">
         <div>
             <div class="title-proposito">
-                <p class="font-italic">Nuestro propósito</p>
+                <p class="font-italic">{{ 'about_us.title3' | translate }}</p>
             </div>
             <p class="m-0 last-product">
-                Sabemos que el tiempo es invaluable, lo que nos inspira a hacer tu vida libre de preocupaciones innecesarias a través de productos para tu vehículo que te garanticen seguridad, excelente desempeño y durabilidad
+              {{ 'about_us.description3' | translate }}
             </p>
         </div>
     </div>
@@ -25,15 +25,15 @@
 <div style="background-image: url(assets/img/nosotros-footer.png); background-size: cover; background-position: bottom; height: 600px;">
     <div class="d-flex justify-content-center align-items-center h-100">
         <div class="title-footer w-35 text-center">
-            <p class="font-italic">Nuestros principios</p>
+            <p class="font-italic">{{ 'about_us.title4' | translate }}</p>
             <div class="text-left mt-5">
-                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i>El mundo hoy es diferente de ayer, <span>debemos ir un paso adelante</span></p>
-                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i><span>Tú eres</span> nuestro principal pensamiento</p>
-                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i>No importa que, <span>la transparencia y la integridad son un deber</span></p>
-                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i><span>La satisfacción</span> deja más recuerdos que el producto en si</p>
+                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i>{{ 'about_us.description4.1' | translate }} <span>{{ 'about_us.description4.11' | translate }}</span></p>
+                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i><span>{{ 'about_us.description4.2' | translate }}</span> {{ 'about_us.description4.21' | translate }}</p>
+                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i>{{ 'about_us.description4.3' | translate }} <span>{{ 'about_us.description4.31' | translate }}</span></p>
+                <p class="parrafo-footer"><i class="fas fa-square mr-3"></i><span>{{ 'about_us.description4.4' | translate }}</span>{{ 'about_us.description4.41' | translate }}</p>
             </div>
             <div class="d-flex justify-content-center">
-                <a [routerLink]="['/contactos']" class="btn-block bg-red">Contactanos</a>
+                <a [routerLink]="['/contactos']" class="btn-block bg-red">{{ 'general.contactus' | translate }}</a>
             </div>
         </div>
     </div>
